@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+body{
+    background-color: #222;
+}
+.btn1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 133px;
+    background-color:rgb(255, 255, 255);
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.btn1:hover{
+    background-color: rgb(235, 235, 235);
+}
+.btn2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 133px;
+    background-color:rgb(255, 255, 255);
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 236px; 
+}
+.btn2:hover{
+    background-color: rgb(235, 235, 235);
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+#heading{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+hr {
+    margin-top: 80px;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    position: absolute;
+    left: 46%;
+    top: 187px;
+}
+.input{
+    margin-top: 151px;
+    margin-left: 203px;
+    height: 90px;
+    width: 201px;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    outline: none;
+    background-color: #222;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+}
+.right{
+    color: white;
+    font-size: 40px;
+    margin-top:117px ;
+    margin-left: 234px;
+}
+#start{
+    margin-bottom: 80px;
+}
